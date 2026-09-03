@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "p3tTyIhgV2KFr74GT8JeFsbL3okXFQhMFPtNBY9gljo=",
+  "Source": "ExcelTools.Api",
+  "BasePath": "_content/ExcelTools.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

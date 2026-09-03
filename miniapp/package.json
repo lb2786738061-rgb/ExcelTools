@@ -1,0 +1,23 @@
+{
+  "name": "excel-tools-miniapp",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0-alpha-3090020231104001",
+    "@dcloudio/uni-app-plus": "^3.0.0-alpha-3090020231104001",
+    "@dcloudio/uni-components": "^3.0.0-alpha-3090020231104001",
+    "@dcloudio/uni-h5": "^3.0.0-alpha-3090020231104001",
+    "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3090020231104001",
+    "vue": "^3.2.45",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.3.2",
+    "@dcloudio/uni-cli-shared": "^3.0.0-alpha-3090020231104001",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-3090020231104001",
+    "vite": "^4.0.0"
+  }
+}

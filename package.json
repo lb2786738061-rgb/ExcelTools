@@ -1,0 +1,27 @@
+{
+  "name": "office-smart-tools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/server.js",
+    "server:dotnet": "dotnet run --project server_dotnet/ExcelTools.Api.csproj",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx": "^9.1.1",
+    "docx-preview": "^0.3.4",
+    "express": "^4.22.2",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1",
+    "lucide": "^0.474.0",
+    "pdf-lib": "^1.17.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}

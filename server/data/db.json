@@ -1,0 +1,156 @@
+﻿{
+  "users": [
+    {
+      "id": "admin-001",
+      "username": "admin",
+      "passwordHash": "pbkdf2$100000$44c86de4477d12020c6fff897947d4b8$9858d0c2fb5f2e63f7a8a3eaed4ff8d77b9b351fe0506e3fd32b559097f03496",
+      "role": "admin",
+      "isVip": true,
+      "vipExpireAt": 2524608000000,
+      "balance": 99999,
+      "createdAt": 1788346816289
+    },
+    {
+      "id": "user-demo",
+      "username": "testuser",
+      "passwordHash": "pbkdf2$100000$8fa2c2232f72a38ae03810649e331735$cd75a91a9265ba878a5847881c999e0b555ae88845b37f2e9120fbba88ad5b2c",
+      "role": "user",
+      "isVip": true,
+      "vipExpireAt": 2524608000000,
+      "balance": 99999,
+      "createdAt": 1788346816357
+    },
+    {
+      "id": "gst-61694208-1b03-4542-b55b-b859545dfac5",
+      "username": "guest_545dfac5",
+      "passwordHash": "pbkdf2$100000$ecfe56b8cd33d3e4d3a115853127e54d$0ba4d4d8f4d66a75dc9f5e89c0d6e4ebc25a43efb499db68a8864659ac1e368c",
+      "role": "guest",
+      "isVip": false,
+      "vipExpireAt": 0,
+      "balance": 2,
+      "createdAt": 1788346816433
+    },
+    {
+      "id": "gst-8f9da7d9df924a8487c55b099caa33ba",
+      "username": "guest_9caa33ba",
+      "passwordHash": "pbkdf2$100000$688a18bf277d84d00c7009161968d2a7$207a495e88483ccb00b2c3d6bd6febc4a2e1d0e7d5ed87d596f222d51567dc7d",
+      "role": "guest",
+      "isVip": false,
+      "vipExpireAt": 0,
+      "balance": 0,
+      "createdAt": 1788350901917
+    }
+  ],
+  "vipCards": [
+    {
+      "code": "VIP-MONTH-8888-9999",
+      "type": "month",
+      "value": 30,
+      "status": "unused",
+      "usedBy": null,
+      "usedAt": null,
+      "createdAt": 1788346816357
+    },
+    {
+      "code": "VIP-YEAR-6666-8888",
+      "type": "year",
+      "value": 365,
+      "status": "unused",
+      "usedBy": null,
+      "usedAt": null,
+      "createdAt": 1788346816358
+    }
+  ],
+  "usageLogs": [
+    {
+      "id": "log-1788346816447",
+      "userId": "gst-61694208-1b03-4542-b55b-b859545dfac5",
+      "username": "guest_545dfac5",
+      "fileName": "a.xlsx",
+      "type": "\u6263\u96641\u6B21\u6B21\u6570",
+      "cost": 1,
+      "createdAt": 1788346816447
+    },
+    {
+      "id": "log-1788350933470",
+      "userId": "gst-8f9da7d9df924a8487c55b099caa33ba",
+      "username": "guest_9caa33ba",
+      "fileName": "8.27\u94F6\u533B\u81EA\u52A9\u8F6F\u4EF6.xlsx",
+      "type": "\u6263\u96641\u6B21\u6B21\u6570",
+      "cost": 1,
+      "createdAt": 1788350933470
+    },
+    {
+      "id": "log-1788351993831",
+      "userId": "gst-8f9da7d9df924a8487c55b099caa33ba",
+      "username": "guest_9caa33ba",
+      "fileName": "\u57CE\u5E02-\u5E97\u94FA.xls",
+      "type": "\u6263\u96641\u6B21\u6B21\u6570",
+      "cost": 1,
+      "createdAt": 1788351993831
+    },
+    {
+      "id": "log-1788352997874",
+      "userId": "gst-8f9da7d9df924a8487c55b099caa33ba",
+      "username": "guest_9caa33ba",
+      "fileName": "\u57CE\u5E02-\u5E97\u94FA.xls",
+      "type": "\u6263\u96641\u6B21\u6B21\u6570",
+      "cost": 1,
+      "createdAt": 1788352997874
+    },
+    {
+      "id": "log-1788354818296",
+      "userId": "user-demo",
+      "username": "testuser",
+      "fileName": "\u57CE\u5E02-\u5E97\u94FA.xls",
+      "type": "VIP\u514D\u6263\u8D39",
+      "cost": 0,
+      "createdAt": 1788354818296
+    },
+    {
+      "id": "log-1788397953604",
+      "userId": "user-demo",
+      "username": "testuser",
+      "fileName": "\u8FBE\u5BB6\u65B0\u7CFB\u7EDF\u7EC4\u7EC7\u67B6\u6784\u548C\u9700\u6C42\u6E05\u5355-7.24.xlsx",
+      "type": "VIP\u514D\u6263\u8D39",
+      "cost": 0,
+      "createdAt": 1788397953604
+    },
+    {
+      "id": "log-1788398034668",
+      "userId": "user-demo",
+      "username": "testuser",
+      "fileName": "8.27\u94F6\u533B\u81EA\u52A9\u8F6F\u4EF6.xlsx",
+      "type": "VIP\u514D\u6263\u8D39",
+      "cost": 0,
+      "createdAt": 1788398034668
+    },
+    {
+      "id": "log-1788400045795",
+      "userId": "user-demo",
+      "username": "testuser",
+      "fileName": "\u9879\u76EE\u4EA4\u63A5\u4E0E\u5907\u6CE8.docx",
+      "type": "VIP\u514D\u6263\u8D39",
+      "cost": 0,
+      "createdAt": 1788400045795
+    },
+    {
+      "id": "log-1788400498913",
+      "userId": "user-demo",
+      "username": "testuser",
+      "fileName": "\u9879\u76EE\u4EA4\u63A5\u4E0E\u5907\u6CE8.docx",
+      "type": "VIP\u514D\u6263\u8D39",
+      "cost": 0,
+      "createdAt": 1788400498913
+    },
+    {
+      "id": "log-1788400669823",
+      "userId": "user-demo",
+      "username": "testuser",
+      "fileName": "\u9879\u76EE\u4EA4\u63A5\u4E0E\u5907\u6CE8.docx",
+      "type": "VIP\u514D\u6263\u8D39",
+      "cost": 0,
+      "createdAt": 1788400669823
+    }
+  ]
+}
